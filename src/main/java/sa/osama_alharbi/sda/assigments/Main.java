@@ -1,0 +1,7 @@
+package sa.osama_alharbi.sda.assigments;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+    }
+}
