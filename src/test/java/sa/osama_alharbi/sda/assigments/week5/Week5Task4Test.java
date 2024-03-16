@@ -1,11 +1,12 @@
-package sa.osama_alharbi.sda.assigments;
+package sa.osama_alharbi.sda.assigments.week5;
 
 import org.openqa.selenium.Cookie;
 import org.testng.annotations.Test;
+import sa.osama_alharbi.sda.assigments.Tests;
 
 import java.util.Set;
 
-public class Week5Task4 extends Tests{
+public class Week5Task4Test extends Tests {
     /*
         Go to URL: http://facebook.com
         getCookies,
@@ -15,7 +16,7 @@ public class Week5Task4 extends Tests{
     */ 
     
     @Test
-    public void test(){
+    public void cookiesTest(){
         //Go to URL: http://facebook.com
         bot.navigate("http://facebook.com");
 

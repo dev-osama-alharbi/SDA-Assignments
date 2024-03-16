@@ -1,11 +1,12 @@
-package sa.osama_alharbi.sda.assigments;
+package sa.osama_alharbi.sda.assigments.week5;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
+import sa.osama_alharbi.sda.assigments.Tests;
 
-public class Week5Task1 extends Tests{
+public class Week5Task1Test extends Tests {
     /*
         Go to URL: http://demo.guru99.com/test/drag_drop.html
         Drag and drop the BANK button to the Account section in DEBIT SIDE
@@ -16,7 +17,7 @@ public class Week5Task1 extends Tests{
     */ 
     
     @Test
-    public void test(){
+    public void dragAndDropTest(){
         //Go to URL: http://demo.guru99.com/test/drag_drop.html
         bot.navigate("http://demo.guru99.com/test/drag_drop.html");
 
