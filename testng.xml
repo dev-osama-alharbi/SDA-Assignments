@@ -1,5 +1,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="SDA suite" thread-count="2" parallel="tests" verbose="1">
+    <listeners>
+        <listener class-name="sa.osama_alharbi.sda.assigments.CustomListeners"/>
+    </listeners>
     <test name="SDA test">
         <parameter name="target-browser" value="chrome"/>
         <classes>

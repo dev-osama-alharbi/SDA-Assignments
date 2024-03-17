@@ -32,7 +32,7 @@ public class Week5Task3Test extends Tests {
 
         // Click on the "Back to top" web element
         wait.until(d -> driver.findElement(By.cssSelector("button#gh-bt")).isDisplayed());
-        driver.findElement(By.cssSelector("button#gh-bt")).click();
+        bot.click(By.cssSelector("button#gh-bt"));
 
         // Click on the Amazon logo at the bottom of the page (in the footer) or ebay Stores link using JavascriptExecutor
         JavascriptExecutor js = (JavascriptExecutor) driver;
