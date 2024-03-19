@@ -21,7 +21,6 @@ public class Week6Task3Test extends Tests {
 
         //enter username - "student"
         bot.type(By.id("username"),"student");
-
         //enter password - "incorrectPassword"
         bot.type(By.id("password"),"incorrectPassword");
 

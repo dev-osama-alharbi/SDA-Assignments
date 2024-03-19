@@ -5,10 +5,10 @@
 <!--        <parameter name="target-browser" value="firefox"/>-->
 <!--        <parameter name="target-browser" value="edge"/>-->
         <classes>
-            <class name="sa.osama_alharbi.sda.assigments.week6.Week6Task1Test"></class>
-            <class name="sa.osama_alharbi.sda.assigments.week6.Week6Task2Test"></class>
-            <class name="sa.osama_alharbi.sda.assigments.week6.Week6Task3Test"></class>
-            <class name="sa.osama_alharbi.sda.assigments.week6.Week6Task4Test"></class>
+            <class name="sa.osama_alharbi.sda.assigments.week6.Week6Task1Test"/>
+            <class name="sa.osama_alharbi.sda.assigments.week6.Week6Task2Test"/>
+            <class name="sa.osama_alharbi.sda.assigments.week6.Week6Task3Test"/>
+            <class name="sa.osama_alharbi.sda.assigments.week6.Week6Task4Test"/>
         </classes>
     </test>
 </suite>

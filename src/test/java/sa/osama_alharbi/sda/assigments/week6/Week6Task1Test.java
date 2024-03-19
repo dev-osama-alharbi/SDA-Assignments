@@ -14,7 +14,7 @@ public class Week6Task1Test extends Tests {
         Then go to Google depending on Facebook,
         Then go to Amazon depending on Google
         Close the driver.
-     */
+     ************* */
     @Test
     public void navigateFacebookTest(){
         bot.navigate("https://www.facebook.com/");
