@@ -6,7 +6,7 @@ import org.testng.asserts.SoftAssert;
 import sa.osama_alharbi.sda.assigments.Tests;
 
 public class Week6Task3Test extends Tests {
-    /*
+    /*✅
         go to "https://practicetestautomation.com/practice-test-login/"
         enter username - "student"
         enter password - "incorrectPassword"
@@ -15,7 +15,7 @@ public class Week6Task3Test extends Tests {
         SOFT ASSERT the error message is "Your password is invalid!"
      */
     @Test
-    public void assertPasswordTest(){
+    public void softAssertPasswordTest(){
         //go to "https://practicetestautomation.com/practice-test-login/"
         bot.navigate("https://practicetestautomation.com/practice-test-login/");
 

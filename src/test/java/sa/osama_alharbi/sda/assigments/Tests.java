@@ -27,7 +27,7 @@ public abstract class Tests {
     public ActionsBot bot;
     protected static JSONObject testData;
 
-    @BeforeClass
+    @BeforeSuite
     public static void beforeClass() throws IOException, ParseException {
         Configurator.initialize(null, "src/main/resources/properties/log4j2.properties");
         logger = LogManager.getLogger(Tests.class.getName());

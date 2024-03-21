@@ -6,7 +6,7 @@ import sa.osama_alharbi.sda.assigments.Tests;
 
 //@Listeners(CustomListeners.class)
 public class Week6Task1Test extends Tests {
-    /*
+    /*✅
         Create tests that depend on each other
         Create beforeClass and set up settings.
         By creating interdependent tests;
