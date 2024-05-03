@@ -6,6 +6,9 @@
             <class name="sa.osama_alharbi.sda.assigments.week10.Week9Task13ReadTest"/>
             <class name="sa.osama_alharbi.sda.assigments.week10.Week9Task13UpdateTest"/>
             <class name="sa.osama_alharbi.sda.assigments.week10.Week9Task13DeleteTest"/>
+            <class name="sa.osama_alharbi.sda.assigments.week10.Week9Task14Test"/>
+            <class name="sa.osama_alharbi.sda.assigments.week10.Week9Task15Test"/>
+            <class name="sa.osama_alharbi.sda.assigments.week10.Week9Task16Test"/>
         </classes>
     </test>
 </suite>
