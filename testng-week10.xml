@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SDA suite" thread-count="1" parallel="classes" verbose="1">
+    <test name="SDA test">
+        <classes>
+            <class name="sa.osama_alharbi.sda.assigments.week10.Week9Task13CreateTest"/>
+            <class name="sa.osama_alharbi.sda.assigments.week10.Week9Task13ReadTest"/>
+            <class name="sa.osama_alharbi.sda.assigments.week10.Week9Task13UpdateTest"/>
+            <class name="sa.osama_alharbi.sda.assigments.week10.Week9Task13DeleteTest"/>
+        </classes>
+    </test>
+</suite>
