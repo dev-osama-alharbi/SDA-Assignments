@@ -44,18 +44,19 @@ public class Week9Task14Test extends Week9Task14BaseUrl {
                 .statusCode(200)
                 .body(
                         "data",hasSize(24),
-                        "data.employee_name", hasItems("Tiger Nixon","Garrett Winters")
-                        //TODO The greatest age is 66
-                        //"data.employee_age",greaterThanOrEqualTo(66)
-                        //TODO The name of the lowest age is "Tatyana Fitzpatrick"
-                        //TODO Total salary of all employees is 6,644,770
-                );
+                        "data.employee_name", hasItems("Tiger Nixon","Garrett Winters"),
+                        //The greatest age is 66
+//                        "data.employee_age",greaterThanOrEqualTo(66)
+                        "data.max { it.employee_age }.employee_age",equalTo(66),
+                        //The name of the lowest age is "Tatyana Fitzpatrick"
+                        "data.min { it.employee_age }.employee_name",equalTo("Tatyana Fitzpatrick"),
+                        //Total salary of all employees is 6,644,770
+                        "data.collect { it.employee_salary }.sum()",equalTo(6644770)
+                        );
 
 
         EmployeeListPojo actualDataList = response.as(EmployeeListPojo.class);
         System.out.println("actualDataList = " + actualDataList);
-
-        Assert.assertEquals(response.statusCode(), 200);
 
     }
 }
